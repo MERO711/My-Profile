@@ -98,65 +98,69 @@ section.active {
 #about h1 {
     font-size: 3rem;
     text-decoration: underline;
-    text-underline-offset: 5px; /* Space between text and underline */
-
+    text-underline-offset: 0.5rem; /* Space between text and underline */
 }
 
-#about h2{
+#about h2 {
     font-size: 1.4rem;
 }
 
 .left-paragraph1 {
     font-family: "Montserrat", sans-serif;
     position: absolute;
-    left: 200px; /* Distance from the left edge */
+    left: 12.5rem; /* Distance from the left edge */
     top: 35%; /* Center vertically */
     transform: translateY(-100%); /* Adjust for perfect vertical centering */
-    max-width: 300px; /* Limit paragraph width */
+    max-width: 18.75rem; /* Limit paragraph width */
     font-size: 2.2rem; /* Adjust font size */
-    padding: 10px; /* Optional padding for readability */
+    padding: 0.625rem; /* Optional padding for readability */
     visibility: visible; /* Ensure paragraph is visible */
 }
 
 .left-paragraph {
     position: absolute;
-    left: 200px; /* Distance from the left edge */
+    left: 12.5rem; /* Distance from the left edge */
     top: 51%; /* Center vertically */
     transform: translateY(-100%); /* Adjust for perfect vertical centering */
-    max-width: 400px; /* Limit paragraph width */
+    max-width: 25rem; /* Limit paragraph width */
     font-size: 1.2rem; /* Adjust font size */
-    padding: 10px; /* Optional padding for readability */
-    visibility: visible; /* Ensure paragraph is visible */
-}
-.right-paragraph1 {
-    font-family: "Montserrat", sans-serif;
-    position: absolute;
-    right: 510px; /* Distance from the right edge */
-    top: 22%; /* Center vertically */
-    transform: translateY(100%); /* Adjust for perfect vertical centering */
-    max-width: 300px; /* Limit paragraph width */
-    font-size: 2.2rem; /* Adjust font size */
-    padding: 10px; /* Optional padding for readability */
-    visibility: visible; /* Ensure paragraph is visible */
-}
-.right-paragraph {
-    position: absolute;
-    right: 200px; /* Distance from the right edge */
-    top: 18%; /* Center vertically */
-    transform: translateY(100%); /* Adjust for perfect vertical centering */
-    max-width: 400px; /* Limit paragraph width */
-    font-size: 1.2rem; /* Adjust font size */
-    padding: 10px; /* Optional padding for readability */
+    padding: 0.625rem; /* Optional padding for readability */
     visibility: visible; /* Ensure paragraph is visible */
 }
 
-#portfolio { background-color: #F8F8FF;}
+.right-paragraph1 {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    right: 31.875rem; /* Distance from the right edge */
+    top: 22%; /* Center vertically */
+    transform: translateY(100%); /* Adjust for perfect vertical centering */
+    max-width: 18.75rem; /* Limit paragraph width */
+    font-size: 2.2rem; /* Adjust font size */
+    padding: 0.625rem; /* Optional padding for readability */
+    visibility: visible; /* Ensure paragraph is visible */
+}
+
+.right-paragraph {
+    position: absolute;
+    right: 12.5rem; /* Distance from the right edge */
+    top: 17%; /* Center vertically */
+    transform: translateY(100%); /* Adjust for perfect vertical centering */
+    max-width: 25rem; /* Limit paragraph width */
+    font-size: 1.2rem; /* Adjust font size */
+    padding: 0.625rem; /* Optional padding for readability */
+    visibility: visible; /* Ensure paragraph is visible */
+}
+
+
+#portfolio { 
+    background-color: #F8F8FF;
+}
 
 #portfolio h2 {
     font-size: 3.5rem;
     text-align: center;
     text-decoration: underline;
-    text-underline-offset: 5px; /* Space between text and underline */
+    text-underline-offset: 0.3125rem; /* Space between text and underline */
 }
 
 #portfolio h3 {
@@ -166,76 +170,76 @@ section.active {
 /* Style for images in sections */
 .section-image {
     width: 80%; /* Adjust width as needed */
-    max-width: 230px; /* Maximum width for larger screens */
-    margin: 20px 0; /* Space around images */
+    max-width: 14.375rem; /* Maximum width for larger screens */
+    margin: 1.25rem 0; /* Space around images */
 }
 
 .section-image1 {
     position: absolute;
-    left: 200px; /* Distance from the left edge */
+    left: 12.5rem; /* Distance from the left edge */
     top: 53%; /* Center vertically */
     transform: translateY(-100%); /* Adjust for perfect vertical centering */
     width: 50%; /* Adjust width as needed */
-    max-width: 230px; /* Maximum width for larger screens */
-    margin: 20px 0; /* Space around images */
-    visibility: visible; /* Ensure paragraph is visible */
+    max-width: 14.375rem; /* Maximum width for larger screens */
+    margin: 1.25rem 0; /* Space around images */
+    visibility: visible; /* Ensure image is visible */
 }
 
 .section-image2 {
     position: absolute;
-    left: 350px; /* Distance from the left edge */
+    left: 21.875rem; /* Distance from the left edge */
     top: 78%; /* Center vertically */
     transform: translateY(-100%); /* Adjust for perfect vertical centering */
     width: 50%; /* Adjust width as needed */
-    max-width: 230px; /* Maximum width for larger screens */
-    margin: 20px 0; /* Space around images */
-    visibility: visible; /* Ensure paragraph is visible */
+    max-width: 14.375rem; /* Maximum width for larger screens */
+    margin: 1.25rem 0; /* Space around images */
+    visibility: visible; /* Ensure image is visible */
 }
 
 .section-image3 {
     position: absolute;
-    left: 475px; /* Distance from the left edge */
+    left: 29.6875rem; /* Distance from the left edge */
     top: 53%; /* Center vertically */
     transform: translateY(-100%); /* Adjust for perfect vertical centering */
     width: 50%; /* Adjust width as needed */
-    max-width: 230px; /* Maximum width for larger screens */
-    margin: 20px 0; /* Space around images */
-    visibility: visible; /* Ensure paragraph is visible */
+    max-width: 14.375rem; /* Maximum width for larger screens */
+    margin: 1.25rem 0; /* Space around images */
+    visibility: visible; /* Ensure image is visible */
 }
 
 .section-image4 {
     position: absolute;
-    right: 475px; /* Distance from the left edge */
+    right: 29.6875rem; /* Distance from the left edge */
     top: 18%; /* Center vertically */
     transform: translateY(100%); /* Adjust for perfect vertical centering */
     width: 50%; /* Adjust width as needed */
-    max-width: 230px; /* Maximum width for larger screens */
-    margin: 20px 0; /* Space around images */
-    visibility: visible; /* Ensure paragraph is visible */
+    max-width: 14.375rem; /* Maximum width for larger screens */
+    margin: 1.25rem 0; /* Space around images */
+    visibility: visible; /* Ensure image is visible */
 }
 
 .section-image5 {
     position: absolute;
-    right: 200px; /* Distance from the left edge */
+    right: 12.5rem; /* Distance from the left edge */
     top: 20%; /* Center vertically */
     transform: translateY(100%); /* Adjust for perfect vertical centering */
     width: 50%; /* Adjust width as needed */
-    max-width: 230px; /* Maximum width for larger screens */
-    margin: 20px 0; /* Space around images */
-    visibility: visible; /* Ensure paragraph is visible */
+    max-width: 14.375rem; /* Maximum width for larger screens */
+    margin: 1.25rem 0; /* Space around images */
+    visibility: visible; /* Ensure image is visible */
 }
-
 
 .section-image6 {
     position: absolute;
-    right: 350px; /* Distance from the left edge */
+    right: 21.875rem; /* Distance from the left edge */
     top: 45%; /* Center vertically */
     transform: translateY(100%); /* Adjust for perfect vertical centering */
     width: 50%; /* Adjust width as needed */
-    max-width: 230px; /* Maximum width for larger screens */
-    margin: 20px 0; /* Space around images */
-    visibility: visible; /* Ensure paragraph is visible */
-} 
+    max-width: 14.375rem; /* Maximum width for larger screens */
+    margin: 1.25rem 0; /* Space around images */
+    visibility: visible; /* Ensure image is visible */
+}
+
 
 #contacts { background-color: #F5F5F5; }
 
