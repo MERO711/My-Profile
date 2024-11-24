@@ -132,8 +132,8 @@ section.active {
     font-family: "Montserrat", sans-serif;
     position: absolute;
     right: 31.875rem; /* Distance from the right edge */
-    top: 22%; /* Center vertically */
-    transform: translateY(100%); /* Adjust for perfect vertical centering */
+    top: 32%; /* Adjust vertical positioning closer */
+    transform: translateY(-50%); /* Vertically center by adjusting the translation */
     max-width: 18.75rem; /* Limit paragraph width */
     font-size: 2.2rem; /* Adjust font size */
     padding: 0.625rem; /* Optional padding for readability */
@@ -143,14 +143,13 @@ section.active {
 .right-paragraph {
     position: absolute;
     right: 12.5rem; /* Distance from the right edge */
-    top: 17%; /* Center vertically */
-    transform: translateY(100%); /* Adjust for perfect vertical centering */
+    top: 45%; /* Adjust vertical positioning closer */
+    transform: translateY(-50%); /* Vertically center by adjusting the translation */
     max-width: 25rem; /* Limit paragraph width */
     font-size: 1.2rem; /* Adjust font size */
     padding: 0.625rem; /* Optional padding for readability */
     visibility: visible; /* Ensure paragraph is visible */
 }
-
 
 #portfolio { 
     background-color: #F8F8FF;
